@@ -3,7 +3,7 @@ name = "fiap-challenge-1"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Tareck",email = "tareckhage@hotmail.com"}
+    {name = "Tareck",email = "tareckali@outlook.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12,<3.14"
@@ -13,7 +13,8 @@ dependencies = [
     "fastapi (>=0.136.1,<0.137.0)",
     "torch (>=2.11.0,<3.0.0)",
     "torchvision (>=0.26.0,<0.27.0)",
-    "torchaudio (>=2.11.0,<3.0.0)"
+    "torchaudio (>=2.11.0,<3.0.0)",
+    "jupyterlab (>=4.5.7,<5.0.0)"
 ]
 
 [[tool.poetry.source]]
@@ -29,3 +30,8 @@ torchaudio = {source = "pytorch"}
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ruff (>=0.15.12,<0.16.0)"
+]
