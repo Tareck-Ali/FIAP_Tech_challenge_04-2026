@@ -4,3 +4,6 @@ Projeto para o primeiro bimestre do curso da FIAP de ML Engineering de 05/03/202
 # Descrição
 # Setup
 # Execução
+# Fontes
+## Dados
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
