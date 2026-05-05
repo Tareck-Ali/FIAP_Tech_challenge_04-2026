@@ -10,3 +10,9 @@ INTERIM_DATA = DATA_DIR / "interim"
 PROCESSED_DATA = DATA_DIR / "processed"
 
 MODELS = ROOT / "models"
+
+model_name = "mlp.pth"
+
+input_size=20
+hidden_size=32
+output_size=1

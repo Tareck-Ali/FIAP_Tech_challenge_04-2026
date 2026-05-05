@@ -41,3 +41,6 @@ Data drift < 0.2 em features críticas
 Queda de F1 não pode exceder -5% vs baseline de treinamento
 
 # Setup
+
+poetry install
+poetry run .\src\baseline.py
