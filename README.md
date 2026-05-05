@@ -42,5 +42,7 @@ Queda de F1 não pode exceder -5% vs baseline de treinamento
 
 # Setup
 
-poetry install
-poetry run .\src\baseline.py
+Rode os seguintes comandos:
+    git clone https://github.com/Tareck-Ali/FIAP_Tech_challenge_04-2026.git
+    poetry install
+    poetry run .\src\baseline.py
